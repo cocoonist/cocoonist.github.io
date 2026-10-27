@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Seonwoo Kim"
+  site-url: "https://sonukim.com"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: cv.pdf
+        text: CV
+
+format:
+  html:
+    theme: cosmo
